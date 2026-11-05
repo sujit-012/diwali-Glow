@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" width="240" height="180">
+  <defs>
+    <linearGradient id="urli_brass" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5E3F0A"/>
+      <stop offset="30%" stop-color="#D9A441"/>
+      <stop offset="60%" stop-color="#F4C76A"/>
+      <stop offset="100%" stop-color="#805B17"/>
+    </linearGradient>
+    <radialGradient id="urli_water" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2D1E3D"/>
+      <stop offset="70%" stop-color="#140D1F"/>
+      <stop offset="100%" stop-color="#0A0610"/>
+    </radialGradient>
+    <radialGradient id="candle_glow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#FFF8E7"/>
+      <stop offset="40%" stop-color="#F4C76A"/>
+      <stop offset="80%" stop-color="#E87532" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#D9A441" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Shadow -->
+  <ellipse cx="120" cy="165" rx="85" ry="12" fill="#0A080F" opacity="0.6"/>
+
+  <!-- Urli Outer Bowl -->
+  <path d="M 20 115 C 20 170, 220 170, 220 115 C 220 95, 175 80, 120 80 C 65 80, 20 95, 20 115 Z" fill="url(#urli_brass)"/>
+  
+  <!-- Carved Handles -->
+  <path d="M 12 110 C 2 95, 2 130, 20 120" stroke="#F4C76A" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M 228 110 C 238 95, 238 130, 220 120" stroke="#F4C76A" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- Water Surface -->
+  <ellipse cx="120" cy="110" rx="92" ry="24" fill="url(#urli_water)" stroke="#F4C76A" stroke-width="2.5"/>
+
+  <!-- Floating Marigold Petals in Water -->
+  <circle cx="65" cy="115" r="9" fill="#E87532"/>
+  <circle cx="65" cy="115" r="5" fill="#F4C76A"/>
+
+  <circle cx="175" cy="115" r="9" fill="#E87532"/>
+  <circle cx="175" cy="115" r="5" fill="#F4C76A"/>
+
+  <circle cx="120" cy="126" r="8" fill="#F4C76A"/>
+  <circle cx="95" cy="102" r="7" fill="#E87532"/>
+  <circle cx="145" cy="102" r="7" fill="#E87532"/>
+
+  <!-- Center Floating Tea Candle -->
+  <circle cx="120" cy="98" r="28" fill="url(#candle_glow)" opacity="0.8"/>
+  <ellipse cx="120" cy="105" rx="14" ry="6" fill="#FCE7A6" stroke="#D9A441" stroke-width="1.5"/>
+  <!-- Candle Flame -->
+  <path d="M 120 72 C 126 84, 127 94, 120 99 C 113 94, 114 84, 120 72 Z" fill="#E87532"/>
+  <path d="M 120 78 C 124 86, 124 93, 120 96 C 116 93, 116 86, 120 78 Z" fill="#FFF4DC"/>
+</svg>

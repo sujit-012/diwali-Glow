@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <radialGradient id="flameGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF4DC" />
+      <stop offset="30%" stop-color="#F4C76A" />
+      <stop offset="70%" stop-color="#E87532" />
+      <stop offset="100%" stop-color="#D9A441" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="clayBase" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D9A441" />
+      <stop offset="40%" stop-color="#9C5221" />
+      <stop offset="100%" stop-color="#5E2C0F" />
+    </linearGradient>
+    <linearGradient id="innerGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF4DC" />
+      <stop offset="60%" stop-color="#F4C76A" />
+      <stop offset="100%" stop-color="#E87532" />
+    </linearGradient>
+  </defs>
+
+  <!-- Ambient Glow -->
+  <circle cx="50" cy="38" r="30" fill="url(#flameGlow)" opacity="0.6" />
+
+  <!-- Diya Body -->
+  <path d="M15 62 C 15 84, 85 84, 85 62 C 85 58, 70 54, 50 54 C 30 54, 15 58, 15 62 Z" fill="url(#clayBase)" />
+  <!-- Diya Rim -->
+  <ellipse cx="50" cy="60" rx="33" ry="8" fill="#F4C76A" opacity="0.3" stroke="#D9A441" stroke-width="1.5" />
+  <ellipse cx="50" cy="61" rx="26" ry="5" fill="#421C0A" />
+
+  <!-- Flame Outer -->
+  <path d="M50 20 C 58 34, 60 48, 50 56 C 40 48, 42 34, 50 20 Z" fill="#E87532" />
+  <!-- Flame Core -->
+  <path d="M50 27 C 55 36, 56 46, 50 52 C 44 46, 45 36, 50 27 Z" fill="url(#innerGlow)" />
+  <!-- Inner White Spark -->
+  <ellipse cx="50" cy="44" rx="2.5" ry="6" fill="#FFFFFF" />
+</svg>

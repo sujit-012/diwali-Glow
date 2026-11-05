@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" width="200" height="160">
+  <defs>
+    <radialGradient id="cd_flame_glow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#FFF5DB" stop-opacity="1"/>
+      <stop offset="30%" stop-color="#F4C76A" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#E87532" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#D9A441" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cd_clay" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D9A441"/>
+      <stop offset="35%" stop-color="#A75523"/>
+      <stop offset="70%" stop-color="#6F3210"/>
+      <stop offset="100%" stop-color="#3B1705"/>
+    </linearGradient>
+    <linearGradient id="cd_flame_body" x1="50%" y1="100%" x2="50%" y2="0%">
+      <stop offset="0%" stop-color="#E87532"/>
+      <stop offset="40%" stop-color="#F4C76A"/>
+      <stop offset="85%" stop-color="#FFF4DC"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <filter id="cd_blur">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Big Ambient Light Aura -->
+  <circle cx="100" cy="55" r="50" fill="url(#cd_flame_glow)" filter="url(#cd_blur)" opacity="0.85"/>
+
+  <!-- Clay Diya Base Plate -->
+  <ellipse cx="100" cy="135" rx="70" ry="12" fill="#201108" opacity="0.6"/>
+
+  <!-- Diya Body Bowl -->
+  <path d="M 30 115 C 30 155, 170 155, 170 115 C 170 102, 140 92, 100 92 C 60 92, 30 102, 30 115 Z" fill="url(#cd_clay)"/>
+  
+  <!-- Diya Rim -->
+  <ellipse cx="100" cy="112" rx="68" ry="16" fill="#A75523" stroke="#F4C76A" stroke-width="2.5"/>
+  <ellipse cx="100" cy="114" rx="55" ry="10" fill="#4B200A"/>
+  
+  <!-- Traditional Engraved Rim Dots -->
+  <circle cx="50" cy="115" r="2.5" fill="#F4C76A"/>
+  <circle cx="70" cy="120" r="2.5" fill="#F4C76A"/>
+  <circle cx="100" cy="122" r="2.5" fill="#F4C76A"/>
+  <circle cx="130" cy="120" r="2.5" fill="#F4C76A"/>
+  <circle cx="150" cy="115" r="2.5" fill="#F4C76A"/>
+
+  <!-- Cotton Wick Spout -->
+  <ellipse cx="100" cy="100" rx="14" ry="7" fill="#E87532"/>
+  <path d="M 96 103 Q 100 85 102 78" stroke="#331A0D" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Radiant Flame -->
+  <path d="M 100 20 C 118 48, 122 75, 100 90 C 78 75, 82 48, 100 20 Z" fill="url(#cd_flame_body)" filter="url(#cd_blur)"/>
+  <path d="M 100 35 C 110 54, 112 70, 100 80 C 88 70, 90 54, 100 35 Z" fill="#FFF8E7"/>
+  <ellipse cx="100" cy="65" rx="4" ry="10" fill="#FFFFFF"/>
+</svg>

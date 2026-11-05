@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 320" width="70" height="320">
+  <defs>
+    <radialGradient id="vg_orange" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFDD55"/>
+      <stop offset="50%" stop-color="#E87532"/>
+      <stop offset="90%" stop-color="#A53907"/>
+    </radialGradient>
+    <radialGradient id="vg_yellow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#F4C76A"/>
+      <stop offset="90%" stop-color="#C58814"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Hanging string line -->
+  <line x1="35" y1="0" x2="35" y2="305" stroke="#7A5222" stroke-width="1.5"/>
+
+  <!-- Stacked Blossom Circles -->
+  <g transform="translate(35, 25)">
+      <circle cx="0" cy="0" r="17" fill="url(#vg_orange)"/>
+      <circle cx="0" cy="0" r="10" fill="url(#vg_yellow)"/>
+      <circle cx="0" cy="0" r="4" fill="#FFFFFF" opacity="0.6"/>
+    </g>
+<g transform="translate(35, 57)">
+      <circle cx="0" cy="0" r="17" fill="url(#vg_yellow)"/>
+      <circle cx="0" cy="0" r="10" fill="url(#vg_orange)"/>
+      <circle cx="0" cy="0" r="4" fill="#FFFFFF" opacity="0.6"/>
+    </g>
+<g transform="translate(35, 89)">
+      <circle cx="0" cy="0" r="17" fill="url(#vg_orange)"/>
+      <circle cx="0" cy="0" r="10" fill="url(#vg_yellow)"/>
+      <circle cx="0" cy="0" r="4" fill="#FFFFFF" opacity="0.6"/>
+    </g>
+<g transform="translate(35, 121)">
+      <circle cx="0" cy="0" r="17" fill="url(#vg_yellow)"/>
+      <circle cx="0" cy="0" r="10" fill="url(#vg_orange)"/>
+      <circle cx="0" cy="0" r="4" fill="#FFFFFF" opacity="0.6"/>
+    </g>
+<g transform="translate(35, 153)">
+      <circle cx="0" cy="0" r="17" fill="url(#vg_orange)"/>
+      <circle cx="0" cy="0" r="10" fill="url(#vg_yellow)"/>
+      <circle cx="0" cy="0" r="4" fill="#FFFFFF" opacity="0.6"/>
+    </g>
+<g transform="translate(35, 185)">
+      <circle cx="0" cy="0" r="17" fill="url(#vg_yellow)"/>
+      <circle cx="0" cy="0" r="10" fill="url(#vg_orange)"/>
+      <circle cx="0" cy="0" r="4" fill="#FFFFFF" opacity="0.6"/>
+    </g>
+<g transform="translate(35, 217)">
+      <circle cx="0" cy="0" r="17" fill="url(#vg_orange)"/>
+      <circle cx="0" cy="0" r="10" fill="url(#vg_yellow)"/>
+      <circle cx="0" cy="0" r="4" fill="#FFFFFF" opacity="0.6"/>
+    </g>
+<g transform="translate(35, 249)">
+      <circle cx="0" cy="0" r="17" fill="url(#vg_yellow)"/>
+      <circle cx="0" cy="0" r="10" fill="url(#vg_orange)"/>
+      <circle cx="0" cy="0" r="4" fill="#FFFFFF" opacity="0.6"/>
+    </g>
+<g transform="translate(35, 281)">
+      <circle cx="0" cy="0" r="17" fill="url(#vg_orange)"/>
+      <circle cx="0" cy="0" r="10" fill="url(#vg_yellow)"/>
+      <circle cx="0" cy="0" r="4" fill="#FFFFFF" opacity="0.6"/>
+    </g>
+
+  <!-- Auspicious Brass Bell / Ghungroo at bottom -->
+  <g transform="translate(35, 305)">
+    <path d="M -10 0 C -10 10, 10 10, 10 0 Z" fill="#D9A441" stroke="#F4C76A" stroke-width="1"/>
+    <circle cx="0" cy="12" r="3" fill="#F4C76A"/>
+  </g>
+</svg>

@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 240" width="300" height="240">
+  <defs>
+    <radialGradient id="fl_bulb_glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="25%" stop-color="#FFF4DC"/>
+      <stop offset="55%" stop-color="#F4C76A"/>
+      <stop offset="85%" stop-color="#D9A441" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#D9A441" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="fl_spark">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Horizontal top wire -->
+  <path d="M 0 10 Q 75 16 150 10 Q 225 16 300 10" stroke="#7A6843" stroke-width="2" fill="none" opacity="0.8"/>
+
+  <!-- Vertical Strand 1 -->
+  <path d="M 25 12 Q 22 70 28 130 Q 24 190 26 230" stroke="#7A6843" stroke-width="1.2" fill="none" opacity="0.6"/>
+  <!-- Vertical Strand 2 -->
+  <path d="M 75 14 Q 78 65 72 125 Q 77 185 74 235" stroke="#7A6843" stroke-width="1.2" fill="none" opacity="0.6"/>
+  <!-- Vertical Strand 3 -->
+  <path d="M 125 11 Q 120 75 127 135 Q 122 195 126 230" stroke="#7A6843" stroke-width="1.2" fill="none" opacity="0.6"/>
+  <!-- Vertical Strand 4 -->
+  <path d="M 175 12 Q 179 68 173 128 Q 178 188 174 235" stroke="#7A6843" stroke-width="1.2" fill="none" opacity="0.6"/>
+  <!-- Vertical Strand 5 -->
+  <path d="M 225 14 Q 221 72 228 132 Q 223 192 226 230" stroke="#7A6843" stroke-width="1.2" fill="none" opacity="0.6"/>
+  <!-- Vertical Strand 6 -->
+  <path d="M 275 11 Q 279 65 273 125 Q 278 185 274 235" stroke="#7A6843" stroke-width="1.2" fill="none" opacity="0.6"/>
+
+  <!-- Glowing LED bulbs on Strand 1 -->
+  <circle cx="24" cy="45" r="12" fill="url(#fl_bulb_glow)"/>
+  <circle cx="24" cy="45" r="3" fill="#FFFFFF"/>
+  <circle cx="26" cy="100" r="14" fill="url(#fl_bulb_glow)"/>
+  <circle cx="26" cy="100" r="3.5" fill="#FFFFFF"/>
+  <circle cx="27" cy="160" r="12" fill="url(#fl_bulb_glow)"/>
+  <circle cx="27" cy="160" r="3" fill="#FFFFFF"/>
+  <circle cx="26" cy="215" r="15" fill="url(#fl_bulb_glow)"/>
+  <circle cx="26" cy="215" r="4" fill="#FFFFFF"/>
+
+  <!-- Strand 2 -->
+  <circle cx="76" cy="35" r="14" fill="url(#fl_bulb_glow)"/>
+  <circle cx="76" cy="35" r="3.5" fill="#FFFFFF"/>
+  <circle cx="73" cy="85" r="12" fill="url(#fl_bulb_glow)"/>
+  <circle cx="73" cy="85" r="3" fill="#FFFFFF"/>
+  <circle cx="74" cy="145" r="15" fill="url(#fl_bulb_glow)"/>
+  <circle cx="74" cy="145" r="4" fill="#FFFFFF"/>
+  <circle cx="75" cy="205" r="13" fill="url(#fl_bulb_glow)"/>
+  <circle cx="75" cy="205" r="3" fill="#FFFFFF"/>
+
+  <!-- Strand 3 -->
+  <circle cx="123" cy="50" r="15" fill="url(#fl_bulb_glow)"/>
+  <circle cx="123" cy="50" r="4" fill="#FFFFFF"/>
+  <circle cx="126" cy="110" r="13" fill="url(#fl_bulb_glow)"/>
+  <circle cx="126" cy="110" r="3" fill="#FFFFFF"/>
+  <circle cx="124" cy="170" r="15" fill="url(#fl_bulb_glow)"/>
+  <circle cx="124" cy="170" r="4" fill="#FFFFFF"/>
+  <circle cx="126" cy="225" r="12" fill="url(#fl_bulb_glow)"/>
+  <circle cx="126" cy="225" r="3" fill="#FFFFFF"/>
+
+  <!-- Strand 4 -->
+  <circle cx="177" cy="40" r="13" fill="url(#fl_bulb_glow)"/>
+  <circle cx="177" cy="40" r="3" fill="#FFFFFF"/>
+  <circle cx="174" cy="95" r="15" fill="url(#fl_bulb_glow)"/>
+  <circle cx="174" cy="95" r="4" fill="#FFFFFF"/>
+  <circle cx="176" cy="155" r="13" fill="url(#fl_bulb_glow)"/>
+  <circle cx="176" cy="155" r="3" fill="#FFFFFF"/>
+  <circle cx="174" cy="215" r="14" fill="url(#fl_bulb_glow)"/>
+  <circle cx="174" cy="215" r="3.5" fill="#FFFFFF"/>
+
+  <!-- Strand 5 -->
+  <circle cx="223" cy="55" r="14" fill="url(#fl_bulb_glow)"/>
+  <circle cx="223" cy="55" r="3.5" fill="#FFFFFF"/>
+  <circle cx="227" cy="115" r="15" fill="url(#fl_bulb_glow)"/>
+  <circle cx="227" cy="115" r="4" fill="#FFFFFF"/>
+  <circle cx="224" cy="175" r="12" fill="url(#fl_bulb_glow)"/>
+  <circle cx="224" cy="175" r="3" fill="#FFFFFF"/>
+  <circle cx="226" cy="225" r="14" fill="url(#fl_bulb_glow)"/>
+  <circle cx="226" cy="225" r="3.5" fill="#FFFFFF"/>
+
+  <!-- Strand 6 -->
+  <circle cx="277" cy="40" r="13" fill="url(#fl_bulb_glow)"/>
+  <circle cx="277" cy="40" r="3" fill="#FFFFFF"/>
+  <circle cx="274" cy="95" r="14" fill="url(#fl_bulb_glow)"/>
+  <circle cx="274" cy="95" r="3.5" fill="#FFFFFF"/>
+  <circle cx="276" cy="155" r="15" fill="url(#fl_bulb_glow)"/>
+  <circle cx="276" cy="155" r="4" fill="#FFFFFF"/>
+  <circle cx="274" cy="215" r="13" fill="url(#fl_bulb_glow)"/>
+  <circle cx="274" cy="215" r="3" fill="#FFFFFF"/>
+</svg>

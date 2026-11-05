@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg-base: #120516;
+  --color-bg-surface: #1e0721;
+  --color-bg-surface-elevated: #2b0b2e;
+  --color-gold: #FFD700;
+  --color-gold-warm: #FFB800;
+  --color-festive-accent: #FF1E56;
+  --color-festive-glow: rgba(255, 30, 86, 0.4);
+}
+
+/* 1. Theme: Royal Velvet Crimson & 24K Gold (Default) */
+html.theme-royal-crimson,
+body.theme-royal-crimson {
+  --color-bg-base: #120516;
+  --color-bg-surface: #1f0724;
+  --color-bg-surface-elevated: #2e0b35;
+  --color-gold: #FFD700;
+  --color-gold-warm: #FFB800;
+  --color-festive-accent: #FF1E56;
+  --color-festive-glow: rgba(255, 30, 86, 0.35);
+  background-color: #120516;
+  color: #FFF6E5;
+}
+
+/* 2. Theme: Celestial Midnight & Starlight */
+html.theme-celestial-midnight,
+body.theme-celestial-midnight {
+  --color-bg-base: #080c1b;
+  --color-bg-surface: #0f1631;
+  --color-bg-surface-elevated: #18234c;
+  --color-gold: #F4C76A;
+  --color-gold-warm: #FFD166;
+  --color-festive-accent: #E87532;
+  --color-festive-glow: rgba(232, 117, 50, 0.35);
+  background-color: #080c1b;
+  color: #FFF4DC;
+}
+
+/* 3. Theme: Auspicious Emerald & Sandalwood */
+html.theme-temple-emerald,
+body.theme-temple-emerald {
+  --color-bg-base: #051610;
+  --color-bg-surface: #0b261c;
+  --color-bg-surface-elevated: #12382a;
+  --color-gold: #F5B041;
+  --color-gold-warm: #F4D03F;
+  --color-festive-accent: #2ECC71;
+  --color-festive-glow: rgba(46, 204, 113, 0.35);
+  background-color: #051610;
+  color: #F9EBEA;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-bg-base);
+    transition: background-color 0.4s ease, color 0.4s ease;
+  }
+
+  * {
+    border-color: rgba(255, 215, 0, 0.18);
+  }
+  
+  /* Custom festive scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-bg-base);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-bg-surface-elevated);
+    border-radius: 4px;
+    border: 1px solid rgba(255, 215, 0, 0.25);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-gold);
+  }
+}
+
+@layer utilities {
+  .text-gold-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-amber-300 via-gold to-festive-orange;
+  }
+
+  .text-ruby-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-festive-crimson via-rose-500 to-gold;
+  }
+
+  .text-gold-shimmer {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-gold via-festive-cream to-gold bg-[length:200%_auto] animate-pulse;
+  }
+
+  .glass-card {
+    background: rgba(30, 7, 36, 0.65);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 215, 0, 0.22);
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.45);
+  }
+
+  .glass-panel {
+    background: rgba(18, 5, 22, 0.82);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    border: 1px solid rgba(255, 215, 0, 0.2);
+  }
+
+  .glass-panel-elevated {
+    background: rgba(46, 11, 53, 0.85);
+    backdrop-filter: blur(22px);
+    -webkit-backdrop-filter: blur(22px);
+    border: 1px solid rgba(255, 215, 0, 0.35);
+    box-shadow: 0 14px 45px rgba(0, 0, 0, 0.6), 0 0 25px rgba(255, 215, 0, 0.18);
+  }
+
+  .gold-glow {
+    filter: drop-shadow(0 0 14px rgba(255, 215, 0, 0.65));
+  }
+
+  .diya-glow {
+    filter: drop-shadow(0 0 20px rgba(255, 30, 86, 0.65)) drop-shadow(0 0 8px rgba(255, 215, 0, 0.9));
+  }
+}
+
+/* Fabric canvas custom styling */
+.canvas-container {
+  margin: 0 auto;
+  border-radius: 0.75rem;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.7), 0 0 30px rgba(255, 215, 0, 0.2);
+}
+
+/* Range slider styling */
+input[type="range"] {
+  accent-color: #FFD700;
+}
+
+/* Prevent image dragging on non-canvas elements */
+img {
+  user-select: none;
+}

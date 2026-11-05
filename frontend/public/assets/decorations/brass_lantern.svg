@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 280" width="160" height="280">
+  <defs>
+    <linearGradient id="bl_brass" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6F460D"/>
+      <stop offset="35%" stop-color="#D9A441"/>
+      <stop offset="65%" stop-color="#F4C76A"/>
+      <stop offset="100%" stop-color="#553408"/>
+    </linearGradient>
+    <radialGradient id="bl_glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="30%" stop-color="#FFF2BD"/>
+      <stop offset="60%" stop-color="#F4C76A"/>
+      <stop offset="85%" stop-color="#E87532" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#9C5221" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Hanging chain -->
+  <line x1="80" y1="0" x2="80" y2="45" stroke="#D9A441" stroke-width="2.5" stroke-dasharray="4 2"/>
+  <circle cx="80" cy="45" r="5" fill="#F4C76A"/>
+
+  <!-- Lantern Dome -->
+  <path d="M 45 80 C 45 50, 115 50, 115 80 Z" fill="url(#bl_brass)"/>
+  <circle cx="80" cy="50" r="6" fill="#F4C76A"/>
+
+  <!-- Glass Core Glow -->
+  <circle cx="80" cy="140" r="55" fill="url(#bl_glow)" opacity="0.8"/>
+
+  <!-- Hexagonal Glass Panels & Metal Cage -->
+  <rect x="42" y="80" width="76" height="110" rx="6" fill="rgba(244, 199, 106, 0.2)" stroke="url(#bl_brass)" stroke-width="3"/>
+  <line x1="68" y1="80" x2="68" y2="190" stroke="url(#bl_brass)" stroke-width="2"/>
+  <line x1="92" y1="80" x2="92" y2="190" stroke="url(#bl_brass)" stroke-width="2"/>
+
+  <!-- Filigree Diamond Patterns inside glass -->
+  <polygon points="80,105 92,135 80,165 68,135" fill="none" stroke="#FFF4DC" stroke-width="1.5" opacity="0.7"/>
+
+  <!-- Candle inside -->
+  <rect x="74" y="145" width="12" height="35" rx="2" fill="#FFF8EB"/>
+  <path d="M 80 128 C 84 135, 84 142, 80 145 C 76 142, 76 135, 80 128 Z" fill="#E87532"/>
+  <circle cx="80" cy="138" r="3" fill="#FFFFFF"/>
+
+  <!-- Bottom Finial Base -->
+  <path d="M 45 190 L 115 190 L 95 215 L 65 215 Z" fill="url(#bl_brass)"/>
+  <circle cx="80" cy="225" r="6" fill="#F4C76A"/>
+  <polygon points="80,225 76,245 84,245" fill="url(#bl_brass)"/>
+</svg>

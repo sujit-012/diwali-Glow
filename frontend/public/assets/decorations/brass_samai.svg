@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 320" width="200" height="320">
+  <defs>
+    <radialGradient id="bs_glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF4DC"/>
+      <stop offset="35%" stop-color="#F4C76A"/>
+      <stop offset="70%" stop-color="#E87532" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#D9A441" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bs_brass" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#805B17"/>
+      <stop offset="25%" stop-color="#D9A441"/>
+      <stop offset="50%" stop-color="#F4C76A"/>
+      <stop offset="75%" stop-color="#D9A441"/>
+      <stop offset="100%" stop-color="#5E3F0A"/>
+    </linearGradient>
+    <linearGradient id="bs_flame" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#E87532"/>
+      <stop offset="60%" stop-color="#F4C76A"/>
+      <stop offset="100%" stop-color="#FFF4DC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Ground Shadow -->
+  <ellipse cx="100" cy="305" rx="55" ry="10" fill="#0A080F" opacity="0.6"/>
+
+  <!-- Ornate Brass Base -->
+  <path d="M 55 300 Q 100 288 145 300 L 138 285 Q 100 280 62 285 Z" fill="url(#bs_brass)"/>
+  <ellipse cx="100" cy="285" rx="38" ry="8" fill="url(#bs_brass)"/>
+  <path d="M 70 285 Q 100 255 78 235 L 122 235 Q 100 255 130 285 Z" fill="url(#bs_brass)"/>
+
+  <!-- Central Pillar Stem -->
+  <rect x="94" y="115" width="12" height="120" rx="3" fill="url(#bs_brass)"/>
+  <!-- Decorative Beads on Stem -->
+  <ellipse cx="100" cy="210" rx="20" ry="7" fill="url(#bs_brass)"/>
+  <ellipse cx="100" cy="165" rx="16" ry="6" fill="url(#bs_brass)"/>
+
+  <!-- Main Oil Cup (Thali) -->
+  <path d="M 40 115 C 40 145, 160 145, 160 115 Q 100 118 40 115 Z" fill="url(#bs_brass)"/>
+  <ellipse cx="100" cy="115" rx="60" ry="12" fill="#5E3F0A" stroke="#F4C76A" stroke-width="2"/>
+
+  <!-- Peacock / Annam Crest on Top -->
+  <path d="M 96 115 L 96 65 Q 90 50 100 35 Q 110 50 104 65 L 104 115 Z" fill="url(#bs_brass)"/>
+  <circle cx="100" cy="32" r="7" fill="#F4C76A"/>
+
+  <!-- 5 Flames around the cup -->
+  <!-- Left Flame -->
+  <circle cx="48" cy="105" r="18" fill="url(#bs_glow)" opacity="0.7"/>
+  <path d="M 48 90 C 53 98, 54 106, 48 112 C 42 106, 43 98, 48 90 Z" fill="url(#bs_flame)"/>
+
+  <!-- Mid-Left Flame -->
+  <circle cx="72" cy="108" r="18" fill="url(#bs_glow)" opacity="0.7"/>
+  <path d="M 72 93 C 77 101, 78 109, 72 115 C 66 109, 67 101, 72 93 Z" fill="url(#bs_flame)"/>
+
+  <!-- Center Flame -->
+  <circle cx="100" cy="110" r="22" fill="url(#bs_glow)" opacity="0.8"/>
+  <path d="M 100 92 C 106 101, 107 111, 100 118 C 93 111, 94 101, 100 92 Z" fill="url(#bs_flame)"/>
+
+  <!-- Mid-Right Flame -->
+  <circle cx="128" cy="108" r="18" fill="url(#bs_glow)" opacity="0.7"/>
+  <path d="M 128 93 C 133 101, 134 109, 128 115 C 122 109, 123 101, 128 93 Z" fill="url(#bs_flame)"/>
+
+  <!-- Right Flame -->
+  <circle cx="152" cy="105" r="18" fill="url(#bs_glow)" opacity="0.7"/>
+  <path d="M 152 90 C 157 98, 158 106, 152 112 C 146 106, 147 98, 152 90 Z" fill="url(#bs_flame)"/>
+</svg>

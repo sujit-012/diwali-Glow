@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" width="320" height="120">
+  <defs>
+    <radialGradient id="mg_orange" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFD452"/>
+      <stop offset="50%" stop-color="#E87532"/>
+      <stop offset="90%" stop-color="#B2440C"/>
+      <stop offset="100%" stop-color="#6F2302"/>
+    </radialGradient>
+    <radialGradient id="mg_yellow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="45%" stop-color="#F4C76A"/>
+      <stop offset="85%" stop-color="#D9A441"/>
+      <stop offset="100%" stop-color="#9C6B16"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Hanging loops of marigold flowers -->
+  <!-- Left to Right Swag -->
+  <g id="blossoms">
+    <!-- Flower 1 -->
+    <circle cx="20" cy="25" r="14" fill="url(#mg_orange)"/>
+    <circle cx="20" cy="25" r="8" fill="url(#mg_yellow)"/>
+    <!-- Flower 2 -->
+    <circle cx="42" cy="40" r="15" fill="url(#mg_yellow)"/>
+    <circle cx="42" cy="40" r="9" fill="url(#mg_orange)"/>
+    <!-- Flower 3 -->
+    <circle cx="68" cy="55" r="16" fill="url(#mg_orange)"/>
+    <circle cx="68" cy="55" r="9" fill="url(#mg_yellow)"/>
+    <!-- Flower 4 -->
+    <circle cx="98" cy="68" r="16" fill="url(#mg_yellow)"/>
+    <circle cx="98" cy="68" r="10" fill="url(#mg_orange)"/>
+    <!-- Flower 5 -->
+    <circle cx="130" cy="78" r="17" fill="url(#mg_orange)"/>
+    <circle cx="130" cy="78" r="10" fill="url(#mg_yellow)"/>
+    <!-- Center Apex Flower 6 -->
+    <circle cx="160" cy="82" r="18" fill="url(#mg_yellow)"/>
+    <circle cx="160" cy="82" r="11" fill="url(#mg_orange)"/>
+    <!-- Flower 7 -->
+    <circle cx="190" cy="78" r="17" fill="url(#mg_orange)"/>
+    <circle cx="190" cy="78" r="10" fill="url(#mg_yellow)"/>
+    <!-- Flower 8 -->
+    <circle cx="222" cy="68" r="16" fill="url(#mg_yellow)"/>
+    <circle cx="222" cy="68" r="10" fill="url(#mg_orange)"/>
+    <!-- Flower 9 -->
+    <circle cx="252" cy="55" r="16" fill="url(#mg_orange)"/>
+    <circle cx="252" cy="55" r="9" fill="url(#mg_yellow)"/>
+    <!-- Flower 10 -->
+    <circle cx="278" cy="40" r="15" fill="url(#mg_yellow)"/>
+    <circle cx="278" cy="40" r="9" fill="url(#mg_orange)"/>
+    <!-- Flower 11 -->
+    <circle cx="300" cy="25" r="14" fill="url(#mg_orange)"/>
+    <circle cx="300" cy="25" r="8" fill="url(#mg_yellow)"/>
+  </g>
+
+  <!-- Mango Leaf accents in green -->
+  <path d="M 15 25 Q 18 5 28 8 Q 22 25 15 25 Z" fill="#2E6B34"/>
+  <path d="M 158 82 Q 160 108 152 105 Q 155 85 158 82 Z" fill="#2E6B34"/>
+  <path d="M 162 82 Q 160 108 168 105 Q 165 85 162 82 Z" fill="#2E6B34"/>
+  <path d="M 305 25 Q 302 5 292 8 Q 298 25 305 25 Z" fill="#2E6B34"/>
+</svg>

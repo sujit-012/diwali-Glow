@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 100" width="340" height="100">
+  <defs>
+    <radialGradient id="fs_glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="35%" stop-color="#FFF4DC"/>
+      <stop offset="65%" stop-color="#F4C76A"/>
+      <stop offset="100%" stop-color="#D9A441" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Left Swag Curve -->
+  <path d="M 0 15 Q 85 85 170 15" fill="none" stroke="#685635" stroke-width="2"/>
+  <!-- Right Swag Curve -->
+  <path d="M 170 15 Q 255 85 340 15" fill="none" stroke="#685635" stroke-width="2"/>
+
+  <!-- Left Swag Bulbs -->
+  
+    <g transform="translate(25, 26)">
+      <circle cx="0" cy="0" r="14" fill="url(#fs_glow)"/>
+      <circle cx="0" cy="0" r="3.5" fill="#FFFFFF"/>
+    </g>
+  
+
+    <g transform="translate(50, 42)">
+      <circle cx="0" cy="0" r="14" fill="url(#fs_glow)"/>
+      <circle cx="0" cy="0" r="3.5" fill="#FFFFFF"/>
+    </g>
+  
+
+    <g transform="translate(85, 54)">
+      <circle cx="0" cy="0" r="14" fill="url(#fs_glow)"/>
+      <circle cx="0" cy="0" r="3.5" fill="#FFFFFF"/>
+    </g>
+  
+
+    <g transform="translate(120, 42)">
+      <circle cx="0" cy="0" r="14" fill="url(#fs_glow)"/>
+      <circle cx="0" cy="0" r="3.5" fill="#FFFFFF"/>
+    </g>
+  
+
+    <g transform="translate(145, 26)">
+      <circle cx="0" cy="0" r="14" fill="url(#fs_glow)"/>
+      <circle cx="0" cy="0" r="3.5" fill="#FFFFFF"/>
+    </g>
+  
+
+  <!-- Apex Connectors -->
+  <g transform="translate(0, 15)"><circle cx="0" cy="0" r="14" fill="url(#fs_glow)"/><circle cx="0" cy="0" r="3.5" fill="#FFFFFF"/></g>
+  <g transform="translate(170, 15)"><circle cx="0" cy="0" r="16" fill="url(#fs_glow)"/><circle cx="0" cy="0" r="4" fill="#FFFFFF"/></g>
+  <g transform="translate(340, 15)"><circle cx="0" cy="0" r="14" fill="url(#fs_glow)"/><circle cx="0" cy="0" r="3.5" fill="#FFFFFF"/></g>
+
+  <!-- Right Swag Bulbs -->
+  
+    <g transform="translate(195, 26)">
+      <circle cx="0" cy="0" r="14" fill="url(#fs_glow)"/>
+      <circle cx="0" cy="0" r="3.5" fill="#FFFFFF"/>
+    </g>
+  
+
+    <g transform="translate(220, 42)">
+      <circle cx="0" cy="0" r="14" fill="url(#fs_glow)"/>
+      <circle cx="0" cy="0" r="3.5" fill="#FFFFFF"/>
+    </g>
+  
+
+    <g transform="translate(255, 54)">
+      <circle cx="0" cy="0" r="14" fill="url(#fs_glow)"/>
+      <circle cx="0" cy="0" r="3.5" fill="#FFFFFF"/>
+    </g>
+  
+
+    <g transform="translate(290, 42)">
+      <circle cx="0" cy="0" r="14" fill="url(#fs_glow)"/>
+      <circle cx="0" cy="0" r="3.5" fill="#FFFFFF"/>
+    </g>
+  
+
+    <g transform="translate(315, 26)">
+      <circle cx="0" cy="0" r="14" fill="url(#fs_glow)"/>
+      <circle cx="0" cy="0" r="3.5" fill="#FFFFFF"/>
+    </g>
+  
+</svg>

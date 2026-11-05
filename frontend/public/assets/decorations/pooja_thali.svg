@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="220" height="220">
+  <defs>
+    <radialGradient id="th_brass" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF0BE"/>
+      <stop offset="50%" stop-color="#D9A441"/>
+      <stop offset="85%" stop-color="#B07B22"/>
+      <stop offset="100%" stop-color="#6F480E"/>
+    </radialGradient>
+    <radialGradient id="th_flame" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="40%" stop-color="#F4C76A"/>
+      <stop offset="80%" stop-color="#E87532"/>
+      <stop offset="100%" stop-color="#D9A441" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <g transform="translate(110, 110)">
+    <!-- Shadow -->
+    <circle cx="0" cy="5" r="100" fill="#0A080F" opacity="0.6"/>
+
+    <!-- Brass Thali Base -->
+    <circle cx="0" cy="0" r="100" fill="url(#th_brass)" stroke="#F4C76A" stroke-width="4"/>
+    <circle cx="0" cy="0" r="88" fill="#D9A441" stroke="#805B17" stroke-width="1.5"/>
+
+    <!-- Decorative Carved Rim Motif -->
+    <circle cx="0" cy="0" r="85" fill="none" stroke="#6F480E" stroke-width="1.5" stroke-dasharray="6 3"/>
+
+    <!-- Kumkum (Vermillion Red) Bowl -->
+    <circle cx="-42" cy="-35" r="18" fill="#9C1B30" stroke="#F4C76A" stroke-width="2"/>
+    <circle cx="-42" cy="-35" r="13" fill="#D32F2F"/>
+    <circle cx="-42" cy="-35" r="5" fill="#FF8A80" opacity="0.6"/>
+
+    <!-- Haldi (Turmeric Yellow) Bowl -->
+    <circle cx="42" cy="-35" r="18" fill="#D9A441" stroke="#F4C76A" stroke-width="2"/>
+    <circle cx="42" cy="-35" r="13" fill="#F4C76A"/>
+    <circle cx="42" cy="-35" r="5" fill="#FFF9C4" opacity="0.6"/>
+
+    <!-- Fresh Marigold Petals around base -->
+    <circle cx="-50" cy="25" r="10" fill="#E87532"/>
+    <circle cx="-35" cy="45" r="9" fill="#F4C76A"/>
+    <circle cx="50" cy="25" r="10" fill="#E87532"/>
+    <circle cx="35" cy="45" r="9" fill="#F4C76A"/>
+
+    <!-- Center Clay Diya with Radiant Flame -->
+    <ellipse cx="0" cy="30" rx="30" ry="16" fill="#A75523" stroke="#F4C76A" stroke-width="1.5"/>
+    <circle cx="0" cy="5" r="28" fill="url(#th_flame)"/>
+    <path d="M 0 -12 C 7 3, 7 15, 0 20 C -7 15, -7 3, 0 -12 Z" fill="#E87532"/>
+    <path d="M 0 -6 C 4 4, 4 12, 0 16 C -4 12, -4 4, 0 -6 Z" fill="#FFF4DC"/>
+  </g>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 200" width="180" height="200">
+  <defs>
+    <radialGradient id="cp_glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFDF5"/>
+      <stop offset="35%" stop-color="#F4C76A"/>
+      <stop offset="70%" stop-color="#E87532" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#D9A441" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wax_body" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ECE3D4"/>
+      <stop offset="40%" stop-color="#FFF8ED"/>
+      <stop offset="80%" stop-color="#E6DCB8"/>
+      <stop offset="100%" stop-color="#C2B294"/>
+    </linearGradient>
+    <linearGradient id="flame_col" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#E87532"/>
+      <stop offset="60%" stop-color="#F4C76A"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Ground Shadow -->
+  <ellipse cx="90" cy="188" rx="80" ry="10" fill="#0A080F" opacity="0.6"/>
+
+  <!-- Left Candle (Medium) -->
+  <rect x="25" y="90" width="40" height="95" rx="5" fill="url(#wax_body)"/>
+  <ellipse cx="45" cy="90" rx="20" ry="6" fill="#FBF3DE" stroke="#D9A441" stroke-width="1"/>
+  <!-- Wick -->
+  <line x1="45" y1="90" x2="45" y2="82" stroke="#332211" stroke-width="2"/>
+  <!-- Flame & Glow -->
+  <circle cx="45" cy="70" r="22" fill="url(#cp_glow)"/>
+  <path d="M 45 56 C 50 66, 51 74, 45 80 C 39 74, 40 66, 45 56 Z" fill="url(#flame_col)"/>
+
+  <!-- Center Candle (Tall) -->
+  <rect x="70" y="55" width="45" height="130" rx="5" fill="url(#wax_body)"/>
+  <ellipse cx="92.5" cy="55" rx="22.5" ry="7" fill="#FBF3DE" stroke="#D9A441" stroke-width="1"/>
+  <line x1="92.5" y1="55" x2="92.5" y2="45" stroke="#332211" stroke-width="2"/>
+  <circle cx="92.5" cy="35" r="28" fill="url(#cp_glow)"/>
+  <path d="M 92.5 16 C 99 30, 100 40, 92.5 46 C 85 40, 86 30, 92.5 16 Z" fill="url(#flame_col)"/>
+
+  <!-- Right Candle (Small) -->
+  <rect x="120" y="115" width="38" height="70" rx="5" fill="url(#wax_body)"/>
+  <ellipse cx="139" cy="115" rx="19" ry="5.5" fill="#FBF3DE" stroke="#D9A441" stroke-width="1"/>
+  <line x1="139" y1="115" x2="139" y2="107" stroke="#332211" stroke-width="2"/>
+  <circle cx="139" cy="95" r="20" fill="url(#cp_glow)"/>
+  <path d="M 139 82 C 144 91, 145 99, 139 104 C 133 99, 134 91, 139 82 Z" fill="url(#flame_col)"/>
+</svg>
